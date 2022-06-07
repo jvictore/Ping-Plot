@@ -16,7 +16,7 @@ def plot_variacao():
 
 def plot_abaixo_de_trinta():
     fig1 = plt.figure(figsize=(16, 8))
-    fig1 = plt.title('Cade os 30 de ping?', fontdict={"fontsize": 18})
+    fig1 = plt.title('Ping', fontdict={"fontsize": 18})
     fig1 = sns.countplot(data=df, x='lentidao')
     plt.savefig(f'resources/{init_time}/count.png')
 
