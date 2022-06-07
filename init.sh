@@ -4,4 +4,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Execute continuous ping
-python3 ping-plot.py
+python3 src/ping-plot.py

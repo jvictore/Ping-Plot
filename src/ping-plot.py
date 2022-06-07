@@ -24,7 +24,7 @@ def plot_abaixo_de_trinta():
 if __name__ == '__main__':
     init_time = str(datetime.now().strftime("%Y-%m-%d_%H:%M:%S"))
 
-    os.system("bash ping.sh " + init_time)
+    os.system("bash src/ping.sh " + init_time)
 
     sns.set_theme(style="darkgrid")
 
