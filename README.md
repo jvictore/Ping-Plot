@@ -1,16 +1,16 @@
-# Ping-Plot
-## Descrição:
-Programa monitora a latência (ping) da rede e gera dois graficos que podem ser uteis para análise.
+# Ping Plot
+## Description:
+Program monitors the latency (ping) of the network and generates two graphs that can be useful for analysis.
 
-## Requisito:
-    - Python3 instalado.
+## Requirement:
+     - Python3 installed.
 
-## Para executar o script:
-Na primeira execução é necessário instalar o ambiente virtual e os modulos dependentes antes de iniciar o programa.
+## To run the script:
+In the first execution it is necessary to install the virtual environment and the dependent modules before starting the program.
 ```
 bash src/init.sh
 ```
-Nas próximas vezes inicie o script apenas com o comando:
+Next time start the script with the command:
 ```
 bash ping-plot.sh
 ```
